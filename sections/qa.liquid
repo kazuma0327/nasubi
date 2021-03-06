@@ -1,0 +1,51 @@
+<div class="page-width">
+    <div class="grid">
+        <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+                <div class="section-header text-center">
+                    <!-- ここから -->
+                    <div class="half">
+                        <div class="tab">
+                            <input id="tab-one" type="checkbox" name="tabs">
+                            {% for block in section.blocks %}
+                                <label for="tab-one">{{block.settings.question}}</label>
+                                <div class="tab-content">
+                                    <p>{{block.settings.answer}}</p>
+                                </div>
+                            {% endfor %}
+                        </div>         
+                    </div>
+                    <!-- ここまで -->
+                    
+                </div>      
+            </div>
+            <div class="rte">
+            {{ page.content }}
+            </div>
+        </div>
+    </div>
+  </div>
+  
+{% schema %}
+{
+    "name": "よくある質問",
+    "blocks": [
+    {
+        "type": "text",
+        "name": "Q&A",
+        "settings": [
+            {
+                "type": "textarea",
+                "id": "question",
+                "label": "質問"
+            },
+            {
+                "type": "textarea",
+                "id": "answer",
+                "label": "答え"
+            }
+        ]
+    }
+]
+
+}
+{% endschema %}
