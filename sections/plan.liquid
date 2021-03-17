@@ -12,38 +12,36 @@
             <div class="panel pricing-table">
               
               <div class="pricing-plan">
-                <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" class="pricing-img">
-                <h2 class="pricing-header">Personal</h2>
+                <img src="{{section.settings.image_onePerson | img_url: '1920x'}}" alt="" class="pricing-img">
+                <h2 class="pricing-header">{{section.settings.onePerson}}</h2>
                 <ul class="pricing-features">
-                  <li class="pricing-features-item">Custom domains</li>
-                  <li class="pricing-features-item">Sleeps after 30 mins of inactivity</li>
+                  <li class="pricing-features-item">1日プラン</li>
+                  <li class="pricing-features-item">{{section.settings.full_time}}</br>{{section.settings.full_time_description}}</li>
                 </ul>
-                <span class="pricing-price">Free</span>
-                <a href="#/" class="pricing-button">Sign up</a>
+                <span class="pricing-price">{{section.settings.price_onePerson}}</span>
+                <a href="{{section.settings.url_onePerson}}" class="pricing-button is-featured">予約する</a>
               </div>
-              
               <div class="pricing-plan">
-                <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" class="pricing-img">
-                <h2 class="pricing-header">Small team</h2>
+                <img src="{{section.settings.image_secondPerson | img_url: '1920x'}}" alt="" class="pricing-img">
+                <h2 class="pricing-header">{{section.settings.secondPerson}}</h2>
                 <ul class="pricing-features">
-                  <li class="pricing-features-item">Never sleeps</li>
-                  <li class="pricing-features-item">Multiple workers for more powerful apps</li>
+                  <li class="pricing-features-item">1日プラン</li>
+                  <li class="pricing-features-item">{{section.settings.full_time}}</br>{{section.settings.full_time_description}}</li>
                 </ul>
-                <span class="pricing-price">$150</span>
-                <a href="#/" class="pricing-button is-featured">Free trial</a>
+                <span class="pricing-price">{{section.settings.price_secondPerson}}</span>
+                <a href="{{section.settings.url_onePerson}}" class="pricing-button is-featured">予約する</a>
               </div>
-              
               <div class="pricing-plan">
-                <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" class="pricing-img">
-                <h2 class="pricing-header">Enterprise</h2>
+                <img src="{{section.settings.image_thirdPerson | img_url: '1920x'}}" alt="" class="pricing-img">
+                <h2 class="pricing-header">{{section.settings.thirdPerson}}</h2>
                 <ul class="pricing-features">
-                  <li class="pricing-features-item">Dedicated</li>
-                  <li class="pricing-features-item">Simple horizontal scalability</li>
+                  <li class="pricing-features-item">1日プラン</li>
+                  <li class="pricing-features-item">{{section.settings.full_time}}</br>{{section.settings.full_time_description}}</li>
                 </ul>
-                <span class="pricing-price">$400</span>
-                <a href="#/" class="pricing-button">Free trial</a>
+                <span class="pricing-price">{{section.settings.price_thirdPerson}}</span>
+                <a href="{{section.settings.url_onePerson}}" class="pricing-button is-featured">予約する</a>
               </div>
-              
+                          
             </div>
           </div>
         </div>
@@ -57,3 +55,80 @@
     </div>
   </div>
 </div>
+
+
+{% schema %}
+{
+  "name": "編集",
+  "settings": [
+      {
+          "type": "text",
+          "id": "onePerson",
+          "default": "1名様",
+          "label": "人数"
+      },
+      {
+          "type": "text",
+          "id": "price_onePerson",
+          "default": "35,000円(税込)",
+          "label": "料金"
+      },
+      {
+          "type": "image_picker",
+          "id": "image_onePerson",
+          "label": "写真"
+      },
+      {
+          "type": "url",
+          "id": "url_onePerson",
+          "label": "ボタン"
+      },
+      {
+          "type": "text",
+          "id": "full_time",
+          "default": "ガイド時間 約8時間",
+          "label": "ガイド時間"
+      },
+      {
+          "type": "text",
+          "id": "full_time_description",
+          "default": "目安:7時~17時（お昼休憩1時間含む）",
+          "label": "目安"
+      },
+      {
+          "type": "text",
+          "id": "secondPerson",
+          "default": "2名様",
+          "label": "人数"
+      },
+      {
+          "type": "text",
+          "id": "price_secondPerson",
+          "default": "42,000円(税込)",
+          "label": "料金"
+      },
+      {
+          "type": "image_picker",
+          "id": "image_secondPerson",
+          "label": "写真"
+      },
+      {
+          "type": "text",
+          "id": "thirdPerson",
+          "default": "3名様",
+          "label": "人数"
+      },
+      {
+          "type": "text",
+          "id": "price_thirdPerson",
+          "default": "51,000円(税込)",
+          "label": "料金"
+      },
+      {
+          "type": "image_picker",
+          "id": "image_thirdPerson",
+          "label": "写真"
+      }
+  ]
+}
+{% endschema %}
