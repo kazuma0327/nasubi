@@ -1,4 +1,22 @@
-development:
+# development:
+#   password: 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
+#   theme_id: "114979995839"
+#   store: yachi-store.myshopify.com
+
+# なすび本番環境
+production:
   password: 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
   theme_id: "114979995839"
+  store: yachi-store.myshopify.com
+
+# なすびステージング環境
+staging:
+  password: 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
+  theme_id: "120705941695"
+  store: yachi-store.myshopify.com
+
+# なすび開発環境
+development:
+  password: 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
+  theme_id: "120705220799"
   store: yachi-store.myshopify.com

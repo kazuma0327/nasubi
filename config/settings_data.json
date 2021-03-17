@@ -1,21 +1,29 @@
 {
   "current": {
-    "color_text": "#0548f2",
+    "color_text": "#ffffff",
+    "color_body_text": "#ffffff",
     "color_sale_text": "#f7f2f2",
-    "color_button": "#5eb6de",
-    "color_text_field": "#fff",
+    "color_button": "#94d6f4",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#94d6f4",
+    "color_text_field_text": "#ffffff",
+    "color_text_field_border": "#de7b5e",
+    "color_text_field": "#de7b5e",
+    "color_borders": "#0e74ae",
+    "color_body_bg": "#0e74ae",
     "type_header_font": "mono",
     "type_header_base_size": 25,
     "predictive_search_enabled": false,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "share_pinterest": false,
+    "favicon": "shopify:\/\/shop_images\/S__117882900-removebg-preview.png",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/S__117882900.jpg",
+          "logo": "shopify:\/\/shop_images\/S__117882900-removebg-preview.png",
           "logo_max_width": 100,
           "main_linklist": "main-menu",
           "message": false,
@@ -28,7 +36,7 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/S__30613512.jpg",
+          "image": "shopify:\/\/shop_images\/20210227_210307_6304dbad-7b6b-40b5-a8c7-087a4a088222.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
@@ -42,9 +50,10 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
+          "image": "shopify:\/\/shop_images\/DSC_3874.jpg",
           "layout": "left",
-          "title": "テキスト付き画像",
-          "text": "<p>あなたが選んだ商品、コレクション、またはブログ記事に注目を集めるため、大きなテキストと画像を組み合わせます。可用性、スタイル、またはレビュー提供についての詳細を追加します。<\/p>",
+          "title": "なすびガイドのモットー",
+          "text": "<p>初めまして！琵琶湖でバス釣りガイドをやらせてもらってます。なすびです！<\/p><p>なすびガイドはお客さんに笑顔になってもらえるように全力でガイドをやらせてもらってます！<br\/>　新しく趣味を見つけたい方、一緒に釣りをしたい方、休みの日に何していいかわからない方は是非なすびガイドサービスを体験してほしいです！<\/p><p><\/p>",
           "button_label": ""
         }
       },
@@ -55,35 +64,62 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "タイトルまたはキャッチコピーを追加する",
-              "text": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。<\/p>",
-              "button_label": ""
+              "image": "shopify:\/\/shop_images\/20210227_210307_15.jpg",
+              "title": "親子で参加されたお客様",
+              "text": "<p>　なすびガイドはお子様連れで参加される方も多いです。初めての釣り体験になすびガイドを選んでくれるのは、めちゃくちゃ嬉しいです！子供にも懐かれる方だと思います笑<br\/>　安心してご予約してください！<\/p>",
+              "button_label": "親子で予約する",
+              "button_link": "shopify:\/\/products\/なすび琵琶湖バス釣りガイド"
             }
           },
           "feature-columns-1": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "タイトルまたはキャッチコピーを追加する",
-              "text": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。<\/p>",
-              "button_label": ""
+              "image": "shopify:\/\/shop_images\/20210227_210307_13.jpg",
+              "title": "女性でも安心して参加できます。",
+              "text": "<p>　なすびガイドサービスは女性のお客様も問題なく参加できます！初心者でもなすびが基本から教えていきますので、ご安心ください！<\/p>",
+              "button_label": "よくある質問",
+              "button_link": "shopify:\/\/pages\/よくある質問"
             }
           },
           "feature-columns-2": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "タイトルまたはキャッチコピーを追加する",
-              "text": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。<\/p>",
-              "button_label": ""
+              "image": "shopify:\/\/shop_images\/20210227_210307_10.jpg",
+              "title": "デートプランとしても盛り上がります！",
+              "text": "<p>　アウトドアデートでバス釣りはいかがでしょうか？？<br\/>　非日常体験ができると思います！<\/p>",
+              "button_label": "カップルで予約",
+              "button_link": "shopify:\/\/products\/なすび琵琶湖バス釣りガイド"
             }
           },
           "5a3d390a-73a8-41c1-a8ff-e599b8f97cf5": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "title": "タイトルまたはキャッチコピーを追加する",
-              "text": "<p>ブログ記事、商品、またはプロモーションをお客様に伝えます。このテキストで商品について説明し、出品状況やスタイルの詳細を共有するか、最近のレビューやFAQを表示するスペースとして使用します。<\/p>",
+              "image": "shopify:\/\/shop_images\/20210227_210307_14.jpg",
+              "title": "夫婦の新しい趣味に",
+              "text": "<p>　夫婦やカップルで参加されるお客様を見ると、なすびもこんな夫婦になりたいなーと思います笑<\/p>",
+              "button_label": ""
+            }
+          },
+          "248b73a5-1cac-4ed9-b923-69fdf30556ac": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/20210227_210307_9.jpg",
+              "title": "釣り仲間と一緒に",
+              "text": "<p>　なすびガイドは３人一緒に予約が可能なので、釣り仲間や友人と一緒に参加すれば移動や釣れない時間も盛り上がること間違いなしです！<\/p>",
+              "button_label": ""
+            }
+          },
+          "b14da4a1-420b-4198-bbcc-ce0a4ae13621": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/DSC_3945.jpg",
+              "title": "なすびボート",
+              "text": "<p>　なすびとお客様を運んでくれる相棒です笑<br\/>　初めてボートに乗る人は、移動だけでテンションがぶち上がる人が多いので見てて楽しいし嬉しいです。笑<br\/>　大切に整備してるので安心してご予約ください。<\/p>",
               "button_label": ""
             }
           }
@@ -92,7 +128,9 @@
           "feature-columns-0",
           "feature-columns-1",
           "feature-columns-2",
-          "5a3d390a-73a8-41c1-a8ff-e599b8f97cf5"
+          "5a3d390a-73a8-41c1-a8ff-e599b8f97cf5",
+          "248b73a5-1cac-4ed9-b923-69fdf30556ac",
+          "b14da4a1-420b-4198-bbcc-ce0a4ae13621"
         ],
         "settings": {
           "title": "",
@@ -108,18 +146,6 @@
           "rows": 2,
           "show_vendor": false,
           "show_view_all": false
-        }
-      },
-      "hero-2": {
-        "type": "hero",
-        "settings": {
-          "alignment": "center",
-          "hero_layout": "full_width",
-          "hero_size": "medium",
-          "text_size": "large",
-          "title": "テキストオーバーレイ付き画像",
-          "text": "<p>オーバーレイテキストを使用して、お客様があなたのブランドについてよく理解できるようにします。あなたのスタイルやストーリーに関連する画像やテキストを選択してください。<\/p>",
-          "button_label": ""
         }
       },
       "quotes": {
@@ -162,6 +188,7 @@
           "image-bar-0": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/20210227_210307_22.jpg",
               "alignment": "center",
               "cta_label": ""
             }
@@ -169,6 +196,7 @@
           "image-bar-1": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/20210227_210307_8.jpg",
               "alignment": "center",
               "cta_label": ""
             }
@@ -176,6 +204,7 @@
           "image-bar-2": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/20210227_210307_20.jpg",
               "alignment": "center",
               "cta_label": ""
             }
@@ -218,29 +247,29 @@
           "16139568797f2677a4-0": {
             "type": "quote",
             "settings": {
-              "quote": "<p>あなたのストアの幸せなお客様を紹介するために、カスタマーレビューとお客様の声を追加してください。<\/p>",
-              "author": "筆者の名前"
+              "quote": "<p>初めてのなすびガイドさん利用。友達みたいな感覚で楽しく釣りができ的確なガイドで魚にであわせてくれる。<\/p><p>リピーターに、なります。<\/p>",
+              "author": "39歳　会社員　男性"
             }
           },
           "16139568797f2677a4-1": {
             "type": "quote",
             "settings": {
-              "quote": "<p>あなたのストアの幸せなお客様を紹介するために、カスタマーレビューとお客様の声を追加してください。<\/p>",
-              "author": "筆者の名前"
+              "quote": "<p>初めてなすびガイドサービス乗らせてもらいました！<\/p><p>まず　めっちゃ楽しい人です！それにバス釣りの細かい事も教えてもらえてスキルアップにもなりました！<\/p><p>なすびガイドサービスおすすめです！<\/p>",
+              "author": "38歳　会社員　男性"
             }
           },
           "16139568797f2677a4-2": {
             "type": "quote",
             "settings": {
-              "quote": "<p>あなたのストアの幸せなお客様を紹介するために、カスタマーレビューとお客様の声を追加してください。<\/p>",
-              "author": "筆者の名前"
+              "quote": "<p>初めてなすびさんガイドにお世話になりました！<\/p><p>とてもフレンドリーな人で、一日中笑いが絶えませんでした！<\/p><p>オマケに初バス釣らせて頂きましたーー！有難うございま〜す！早速、次のガイド予約させて頂きました！！<\/p><p>楽しみにしてまーーす！<\/p>",
+              "author": "39歳　会社員　男性"
             }
           },
-          "aa0e1a59-cdc1-4874-919c-344a5877e6a9": {
+          "be75ceb6-17c3-4e98-b7aa-d072dc8389c4": {
             "type": "quote",
             "settings": {
-              "quote": "<p>あなたのストアの幸せなお客様を紹介するために、カスタマーレビューとお客様の声を追加してください。<\/p>",
-              "author": "筆者の名前"
+              "quote": "<p>なすびガイドは4回行ったけど、いつも楽しい♪　いろんな釣りのやり方があるけど、お母さん位の年齢の私にも優しく教えてくれる(時にはスパルタで)<\/p><p>それで釣れた時は最高に嬉しいし一緒に喜んでくれる♡<\/p><p><\/p><p>そんななすびガイドにまた行こうって思います。<\/p>",
+              "author": "釣りガール(ガールな年齢ではないけど笑)"
             }
           }
         },
@@ -248,7 +277,7 @@
           "16139568797f2677a4-0",
           "16139568797f2677a4-1",
           "16139568797f2677a4-2",
-          "aa0e1a59-cdc1-4874-919c-344a5877e6a9"
+          "be75ceb6-17c3-4e98-b7aa-d072dc8389c4"
         ],
         "settings": {
           "title": "お客様の声"
@@ -257,61 +286,14 @@
       "16139577664e7d312f": {
         "type": "map",
         "settings": {
-          "heading": "私たちのストア",
-          "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>月曜日～金曜日、午前10時〜午後9時<br\/>土曜日、午前11時〜午後9時<br\/>日曜日、午前11時〜午後5時<\/p>",
+          "heading": "なすび琵琶湖ガイドサービス",
+          "address": "<p>〒520-0102 滋賀県大津市苗鹿１６ ３－２２７<br\/><a title=\"https:\/\/goo.gl\/maps\/PCAMsTxuKwVWLCmu6\" href=\"https:\/\/goo.gl\/maps\/PCAMsTxuKwVWLCmu6\"><strong>MIC BASS CLUB<\/strong><\/a><\/p><p>お問い合わせは、<a title=\"Contact\" href=\"\/pages\/contact\"><strong>こちら各種SNS<\/strong><\/a>のDMもしくは電話でお問い合わせください。<br\/>質問は、<a title=\"よくある質問\" href=\"\/pages\/よくある質問\"><strong>こちらによくある質問<\/strong><\/a>をまとめたので、解決する場合もあります。<\/p>",
           "map_address": "301 Front St W, Toronto",
-          "button_text": "道順を知る",
-          "show_pin": true,
+          "button_text": "",
+          "show_pin": false,
           "api_key": "",
+          "background_image": "shopify:\/\/shop_images\/DSC_3895.jpg",
           "background_image_position": "center center"
-        }
-      },
-      "1613957852682b821b": {
-        "type": "custom-content",
-        "blocks": {
-          "16139578524b683074-0": {
-            "type": "text",
-            "settings": {
-              "title": "あなたのブランドについて語る",
-              "text": "<p>このテキストを使用して、あなたのブランドに関する情報をお客様と共有します。商品を説明したり、告知の共有をしたり、あるいはあなたのストアのお客様を歓迎します。<\/p>",
-              "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          },
-          "16139578524b683074-1": {
-            "type": "image",
-            "settings": {
-              "width": "50%",
-              "alignment": "center"
-            }
-          },
-          "e335c925-4aa0-43a7-aaa6-5df44618847b": {
-            "type": "text",
-            "settings": {
-              "title": "あなたのブランドについて語る",
-              "text": "<p>このテキストを使用して、あなたのブランドに関する情報をお客様と共有します。商品を説明したり、告知の共有をしたり、あるいはあなたのストアのお客様を歓迎します。<\/p>",
-              "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          },
-          "42fc01ea-eaa9-4daa-a277-17785d6aa376": {
-            "type": "image",
-            "settings": {
-              "width": "50%",
-              "alignment": "center"
-            }
-          }
-        },
-        "block_order": [
-          "16139578524b683074-0",
-          "16139578524b683074-1",
-          "e335c925-4aa0-43a7-aaa6-5df44618847b",
-          "42fc01ea-eaa9-4daa-a277-17785d6aa376"
-        ],
-        "settings": {
-          "title": "コンテンツをカスタムする"
         }
       },
       "blog-template": {
@@ -388,6 +370,26 @@
           "heading": "あなたへのおすすめ",
           "show_vendor": false
         }
+      },
+      "161538094779bec2ff": {
+        "type": "featured-product",
+        "settings": {
+          "featured_product": "なすび琵琶湖バス釣りガイド",
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "qa": {
+        "type": "qa",
+        "settings": {
+          "question": "",
+          "answer": ""
+        }
       }
     },
     "content_for_index": [
@@ -395,13 +397,10 @@
       "feature-row",
       "16139568797f2677a4",
       "feature-columns",
-      "collection",
-      "hero-2",
-      "quotes",
+      "161538094779bec2ff",
       "image-bar",
-      "16139577664e7d312f",
-      "1613957852682b821b",
-      "1613961683a3eaecb0"
+      "1613961683a3eaecb0",
+      "16139577664e7d312f"
     ]
   },
   "presets": {
