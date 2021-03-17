@@ -1,51 +1,196 @@
 <div class="page-width">
     <div class="grid">
-        <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
-                <div class="section-header text-center">
-                    <!-- ここから -->
-                    <div class="half">
-                        <div class="tab">
-                            <input id="tab-one" type="checkbox" name="tabs">
-                            {% for block in section.blocks %}
-                                <label for="tab-one">{{block.settings.question}}</label>
-                                <div class="tab-content">
-                                    <p>{{block.settings.answer}}</p>
-                                </div>
-                            {% endfor %}
-                        </div>         
-                    </div>
-                    <!-- ここまで -->
-                    
-                </div>      
+      <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+        <div class="section-header text-center">
+        <!-- ここから -->
+        <div class="half">
+   
+          <!-- <div class="tab">
+            <input id="tab-one" type="checkbox" name="tabs">
+            <label for="tab-one">{{section.settings.question}}</label>
+            <div class="tab-content">
+              <p>{{section.settings.answer}}</p>
             </div>
-            <div class="rte">
-            {{ page.content }}
+          </div> -->
+         
+          <div class="tab">
+            <input id="tab1" type="checkbox" name="tabs">
+            <label for="tab1">Q 初心者でも大丈夫？</label>
+            <div class="tab-content">
+              <p>なすびガイドでは初心者の方も多く来られます！大歓迎です！</p>
             </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab2" type="checkbox" name="tabs">
+            <label for="tab2">Q どうやってやり取りするの？LINE？メール？</label>
+            <div class="tab-content">
+              <p>電話、SNS（ダイレクトメッセージ）、LINE、メールでのやりとりが可能です。</p>
+            </div>
+          </div>
+          
+          <div class="tab">
+            <input id="tab3" type="checkbox" name="tabs">
+            <label for="tab3">ガイド購入した後に、スケジュールをあわせるの？</br>どうやって決めるの？</label>
+            <div class="tab-content">
+              <p>A電話もしくはSMS（ショートメール）で購入から1日以内に連絡させていただきます。</br>
+                もし連絡がなかったら、誠に申し訳ないですが、お問い合わせフォーム、もしくは各種SNSより連絡ください。</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab4" type="checkbox" name="tabs">
+            <label for="tab4">いつガイドが空いてるかってどこでわかるの？</label>
+            <div class="tab-content">
+              <p>ブログに最新情報を載せてあります。（ブログのリンク貼る）</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab5" type="checkbox" name="tabs">
+            <label for="tab5">キャンセル料金はかかるの？</label>
+            <div class="tab-content">
+              <p>基本的にキャンセル料金は頂いておりませんが、前日のみキャンセルされた場合、料金の半分を頂いております。</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab6" type="checkbox" name="tabs">
+            <label  clss="text-left" for="tab6">何人まで船に乗れるの？</label>
+            <div class="tab-content">
+              <p class="text-left">お客様は３名様まで乗船可能です。(定員が自分合わせて４人になります。)</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab7" type="checkbox" name="tabs">
+            <label for="tab7">持ち物はなにがいるの？</label>
+            <div class="tab-content">
+              <p>
+                ＊帽子（安全の為）,偏光グラス（安全の為）</br>
+                ＊レインウェア（晴れた日も必要）</br>
+                ＊飲み物（必ず）</br>
+                ＊保険証（万が一怪我した時の為）</br>
+                ＊着替え ルアー、タックル（無料貸し出しも可能）</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab8" type="checkbox" name="tabs">
+            <label for="tab8">お支払い方法は？</label>
+            <div class="tab-content">
+              <p>クレジットカード、現金のどれかでお支払いが可能です。</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab9" type="checkbox" name="tabs">
+            <label for="tab9">何時にどこにいけばいいの？</label>
+            <div class="tab-content">
+              <p>季節によって変わります。</br>
+                ３〜11月は7時集合</br>
+                １２〜2月は8時集合</br>
+                マリーナ　ミックバスクラブに集合です。</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab10" type="checkbox" name="tabs">
+            <label for="tab10">昼ごはんってどうすればいいの？</label>
+            <div class="tab-content">
+              <p>持ち込みもしくは、湖上沿いにあるレストランに上陸。どちらかをゲストさんに選んで頂いております。</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab11" type="checkbox" name="tabs">
+            <label for="tab11">船酔いは結構しますか？</label>
+            <div class="tab-content">
+              <p>船酔いされる方はあまりおりませんが、心配な方は酔い止め薬を飲んできてください。</br>
+                こちらでも用意するので心配な方は言ってください。</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab12" type="checkbox" name="tabs">
+            <label for="tab12">Label Three</label>
+            <div class="tab-content">
+              <p>Label Three 内コンテンツ</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab-for" type="checkbox" name="tabs">
+            <label for="tab-for">Label Three</label>
+            <div class="tab-content">
+              <p>Label Three 内コンテンツ</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab-for" type="checkbox" name="tabs">
+            <label for="tab-for">Label Three</label>
+            <div class="tab-content">
+              <p>Label Three 内コンテンツ</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab-for" type="checkbox" name="tabs">
+            <label for="tab-for">Label Three</label>
+            <div class="tab-content">
+              <p>Label Three 内コンテンツ</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab-for" type="checkbox" name="tabs">
+            <label for="tab-for">Label Three</label>
+            <div class="tab-content">
+              <p>Label Three 内コンテンツ</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab-for" type="checkbox" name="tabs">
+            <label for="tab-for">Label Three</label>
+            <div class="tab-content">
+              <p>Label Three 内コンテンツ</p>
+            </div>
+          </div>
+         
+          <div class="tab">
+            <input id="tab-for" type="checkbox" name="tabs">
+            <label for="tab-for">Label Three</label>
+            <div class="tab-content">
+              <p>Label Three 内コンテンツ</p>
+            </div>
+          </div>
+         
+        </div>      
+        <!-- ここまで -->
         </div>
+        <div class="rte">
+          {{ page.content }}
+        </div>
+      </div>
     </div>
   </div>
   
 {% schema %}
 {
     "name": "よくある質問",
-    "blocks": [
-    {
-        "type": "text",
-        "name": "Q&A",
-        "settings": [
-            {
-                "type": "textarea",
-                "id": "question",
-                "label": "質問"
-            },
-            {
-                "type": "textarea",
-                "id": "answer",
-                "label": "答え"
-            }
-        ]
-    }
-]
-
+    "settings": [
+        {
+            "type": "text",
+            "id": "question",
+            "label": "質問"
+        },
+        {
+            "type": "text",
+            "id": "answer",
+            "label": "答え"
+        }
+    ]
 }
 {% endschema %}

@@ -57,7 +57,7 @@
         <div class="section-header text-center">
           <h1>
               <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
-              {{ collection.title }}
+              <!-- {{ collection.title }} -->
           </h1>
           {% if collection.description != blank %}
             <div class="rte">
@@ -79,7 +79,8 @@
               {% if section.settings.tags_enable %}
                 {% unless collection.all_tags.size == 0 %}
                   <div class="filters-toolbar__item-child">
-                    <label class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' | t }}</label>
+                    <!-- <label class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' | t }}</label> -->
+                    <p class="filters-toolbar__label select-label" for="FilterTags">{{ 'collections.filters.title_tags' | t }}</p>
                     <div class="filters-toolbar__input-wrapper select-group">
                       <select class="filters-toolbar__input hidden" name="FilterTags" id="FilterTags" aria-describedby="a11y-refresh-page-message a11y-selection-message" data-select-input>
                         <option value="{{ collection.url }}">{{ 'collections.filters.all_tags' | t }}</option>
@@ -97,7 +98,8 @@
               {% if section.settings.sort_enable %}
                 <div class="filters-toolbar__item-child">
                   {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
-                  <label class="filters-toolbar__label select-label" for="SortBy">{{ 'collections.sorting.title' | t }}</label>
+                  <!-- <label class="filters-toolbar__label select-label" for="SortBy">{{ 'collections.sorting.title' | t }}</label> -->
+                  <p class="filters-toolbar__label select-label" for="SortBy">{{ 'collections.sorting.title' | t }}</p>
                   <div class="filters-toolbar__input-wrapper select-group">
                     <select name="sort_by" id="SortBy"
                       class="filters-toolbar__input hidden"
