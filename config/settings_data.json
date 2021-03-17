@@ -390,6 +390,23 @@
           "question": "",
           "answer": ""
         }
+      },
+      "plan": {
+        "type": "plan",
+        "settings": {
+          "onePerson": "1名様",
+          "price_onePerson": "35,000円(税込)",
+          "image_onePerson": "shopify:\/\/shop_images\/20210226_210307.jpg",
+          "url_onePerson": "shopify:\/\/products\/なすび琵琶湖バス釣りガイド",
+          "full_time": "ガイド時間 約8時間",
+          "full_time_description": "目安:7時~17時（お昼休憩1時間含む）",
+          "secondPerson": "2名様",
+          "price_secondPerson": "42,000円(税込)",
+          "image_secondPerson": "shopify:\/\/shop_images\/20210227_210307_15.jpg",
+          "thirdPerson": "3名様",
+          "price_thirdPerson": "51,000円(税込)",
+          "image_thirdPerson": "shopify:\/\/shop_images\/20210227_210307_17.jpg"
+        }
       }
     },
     "content_for_index": [
