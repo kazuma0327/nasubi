@@ -17,6 +17,9 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "share_pinterest": false,
+    "social_twitter_link": "https:\/\/twitter.com\/shoichinakaya",
+    "social_instagram_link": "https:\/\/www.instagram.com\/nasubi_nakaya_shoichi\/?hl=ja",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCrIDWxEnxmX7hoQTxIV-48A",
     "favicon": "shopify:\/\/shop_images\/S__117882900-removebg-preview.png",
     "sections": {
       "header": {
@@ -41,10 +44,10 @@
           "hero_layout": "full_width",
           "hero_size": "large",
           "text_size": "large",
-          "title": "なすび琵琶湖バス釣りガイド",
+          "title": "琵琶湖バス釣りガイド",
           "text": "",
-          "button_label": "予約する",
-          "button_link": "shopify:\/\/products\/なすび琵琶湖バス釣りガイド"
+          "button_label": "料金を確認",
+          "button_link": "shopify:\/\/pages\/料金-プラン"
         }
       },
       "feature-row": {
@@ -52,8 +55,8 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/DSC_3874.jpg",
           "layout": "left",
-          "title": "なすびガイドのモットー",
-          "text": "<p>初めまして！琵琶湖でバス釣りガイドをやらせてもらってます。なすびです！<\/p><p>なすびガイドはお客さんに笑顔になってもらえるように全力でガイドをやらせてもらってます！<br\/>　新しく趣味を見つけたい方、一緒に釣りをしたい方、休みの日に何していいかわからない方は是非なすびガイドサービスを体験してほしいです！<\/p><p><\/p>",
+          "title": "なすびガイドのプロフィール&モットー",
+          "text": "<p>初めまして！琵琶湖でバス釣りガイドをやらせてもらってます。なすびです！<br\/>詳しくはこちら→プロフィール<br\/>なすびガイドはお客様に笑顔になってもらえるように全力でガイドをやらせてもらってます！<br\/>楽しく、ワイワイ、そして真剣に！<\/p><p>初心者の方から上級者の方まで大歓迎！<\/p><p>新しく趣味を見つけたい方、一緒に釣りをしたい方、休みの日に何していいかわからない方にも是非なすびガイドサービスを体験してほしいです！<\/p><p><\/p>",
           "button_label": ""
         }
       },
@@ -66,9 +69,9 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/20210227_210307_15.jpg",
               "title": "親子で参加されたお客様",
-              "text": "<p>　なすびガイドはお子様連れで参加される方も多いです。初めての釣り体験になすびガイドを選んでくれるのは、めちゃくちゃ嬉しいです！子供にも懐かれる方だと思います笑<br\/>　安心してご予約してください！<\/p>",
+              "text": "<p>なすびガイドはお子様連れで参加される方も多いです。初めての釣り体験になすびガイドを選んでくれるのは、めちゃくちゃ嬉しいです！子供にも懐かれる方だと思います笑<br\/>安心してご予約してください！<\/p>",
               "button_label": "親子で予約する",
-              "button_link": "shopify:\/\/products\/なすび琵琶湖バス釣りガイド"
+              "button_link": "shopify:\/\/products\/nasubi_biwako_fishing_family"
             }
           },
           "feature-columns-1": {
@@ -77,7 +80,7 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/20210227_210307_13.jpg",
               "title": "女性でも安心して参加できます。",
-              "text": "<p>　なすびガイドサービスは女性のお客様も問題なく参加できます！初心者でもなすびが基本から教えていきますので、ご安心ください！<\/p>",
+              "text": "<p>なすびガイドサービスは女性のお客様も問題なく参加できます！初心者の方でもなすびが基本から教えていきますので、ご安心ください！お手洗いの問題も釣り場の近くにございますのでご安心ください！<\/p>",
               "button_label": "よくある質問",
               "button_link": "shopify:\/\/pages\/よくある質問"
             }
@@ -86,20 +89,20 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/20210227_210307_10.jpg",
+              "image": "shopify:\/\/shop_images\/20210227_210307_14.jpg",
               "title": "デートプランとしても盛り上がります！",
-              "text": "<p>　アウトドアデートでバス釣りはいかがでしょうか？？<br\/>　非日常体験ができると思います！<\/p>",
+              "text": "<p>アウトドアデートでバス釣りはいかがでしょうか？？<br\/>非日常体験ができると思います！<\/p>",
               "button_label": "カップルで予約",
-              "button_link": "shopify:\/\/products\/なすび琵琶湖バス釣りガイド"
+              "button_link": "shopify:\/\/products\/nasubi_biwako_fishing_family"
             }
           },
           "5a3d390a-73a8-41c1-a8ff-e599b8f97cf5": {
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/20210227_210307_14.jpg",
+              "image": "shopify:\/\/shop_images\/S__121266189.jpg",
               "title": "夫婦の新しい趣味に",
-              "text": "<p>　夫婦やカップルで参加されるお客様を見ると、なすびもこんな夫婦になりたいなーと思います笑<\/p>",
+              "text": "<p>夫婦やカップルで参加されるお客様を見ると、なすびもこんな夫婦になりたいなーと思います笑<\/p>",
               "button_label": ""
             }
           },
@@ -109,7 +112,7 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/20210227_210307_9.jpg",
               "title": "釣り仲間と一緒に",
-              "text": "<p>　なすびガイドは３人一緒に予約が可能なので、釣り仲間や友人と一緒に参加すれば移動や釣れない時間も盛り上がること間違いなしです！<\/p>",
+              "text": "<p>なすびガイドは３人一緒に予約が可能なので、釣り仲間や友人と一緒に参加すれば移動や釣れない時間も盛り上がること間違いなしです！<\/p>",
               "button_label": ""
             }
           },
@@ -117,9 +120,9 @@
             "type": "text_block",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/DSC_3945.jpg",
-              "title": "なすびボート",
-              "text": "<p>　なすびとお客様を運んでくれる相棒です笑<br\/>　初めてボートに乗る人は、移動だけでテンションがぶち上がる人が多いので見てて楽しいし嬉しいです。笑<br\/>　大切に整備してるので安心してご予約ください。<\/p>",
+              "image": "shopify:\/\/shop_images\/20210226_210321.jpg",
+              "title": "お昼休憩に一杯される方も笑",
+              "text": "<p>ボートの運転はなすびがするので、少しお酒を飲まれる方もいます笑<br\/>家で飲むビールとはまた違う良さがありますね！<\/p>",
               "button_label": ""
             }
           }
@@ -244,13 +247,6 @@
       "16139568797f2677a4": {
         "type": "quotes",
         "blocks": {
-          "16139568797f2677a4-0": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>初めてのなすびガイドさん利用。友達みたいな感覚で楽しく釣りができ的確なガイドで魚にであわせてくれる。<\/p><p>リピーターに、なります。<\/p>",
-              "author": "39歳　会社員　男性"
-            }
-          },
           "16139568797f2677a4-1": {
             "type": "quote",
             "settings": {
@@ -271,13 +267,20 @@
               "quote": "<p>なすびガイドは4回行ったけど、いつも楽しい♪　いろんな釣りのやり方があるけど、お母さん位の年齢の私にも優しく教えてくれる(時にはスパルタで)<\/p><p>それで釣れた時は最高に嬉しいし一緒に喜んでくれる♡<\/p><p><\/p><p>そんななすびガイドにまた行こうって思います。<\/p>",
               "author": "釣りガール(ガールな年齢ではないけど笑)"
             }
+          },
+          "ada85126-99f9-4bad-80b3-2e3cafbd3a9a": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>初めてのなすびガイドさん利用。友達みたいな感覚で楽しく釣りができ、的確なガイドで魚にであわせてくれる。<\/p><p>リピーターに、なります。<\/p>",
+              "author": "39歳　会社員　男性"
+            }
           }
         },
         "block_order": [
-          "16139568797f2677a4-0",
           "16139568797f2677a4-1",
           "16139568797f2677a4-2",
-          "be75ceb6-17c3-4e98-b7aa-d072dc8389c4"
+          "be75ceb6-17c3-4e98-b7aa-d072dc8389c4",
+          "ada85126-99f9-4bad-80b3-2e3cafbd3a9a"
         ],
         "settings": {
           "title": "お客様の声"
@@ -287,7 +290,7 @@
         "type": "map",
         "settings": {
           "heading": "なすび琵琶湖ガイドサービス",
-          "address": "<p>〒520-0102 滋賀県大津市苗鹿１６ ３－２２７<br\/><a title=\"https:\/\/goo.gl\/maps\/PCAMsTxuKwVWLCmu6\" href=\"https:\/\/goo.gl\/maps\/PCAMsTxuKwVWLCmu6\"><strong>MIC BASS CLUB<\/strong><\/a><\/p><p>お問い合わせは、<a title=\"Contact\" href=\"\/pages\/contact\"><strong>こちら各種SNS<\/strong><\/a>のDMもしくは電話でお問い合わせください。<br\/>質問は、<a title=\"よくある質問\" href=\"\/pages\/よくある質問\"><strong>こちらによくある質問<\/strong><\/a>をまとめたので、解決する場合もあります。<\/p>",
+          "address": "<p>〒520-0102 滋賀県大津市苗鹿１６ ３－２２７<br\/><a href=\"https:\/\/goo.gl\/maps\/PCAMsTxuKwVWLCmu6\" title=\"https:\/\/goo.gl\/maps\/PCAMsTxuKwVWLCmu6\"><strong>MIC BASS CLUB<\/strong><\/a><\/p><p>お問い合わせは、<a href=\"\/pages\/contact\" title=\"Contact\"><strong>こちら各種SNS<\/strong><\/a>のDMもしくは電話でお問い合わせください。<br\/>質問は、<a href=\"\/pages\/よくある質問\" title=\"よくある質問\"><strong>こちらによくある質問<\/strong><\/a>をまとめたので、解決する場合もあります。<\/p>",
           "map_address": "301 Front St W, Toronto",
           "button_text": "",
           "show_pin": false,
@@ -359,7 +362,7 @@
           "enable_payment_button": true,
           "show_share_buttons": true,
           "media_size": "medium",
-          "enable_image_zoom": true,
+          "enable_image_zoom": false,
           "enable_video_looping": false
         }
       },
@@ -374,13 +377,13 @@
       "161538094779bec2ff": {
         "type": "featured-product",
         "settings": {
-          "featured_product": "なすび琵琶湖バス釣りガイド",
+          "featured_product": "nasubi_biwako_fishing",
           "show_quantity_selector": false,
           "show_vendor": false,
           "enable_payment_button": true,
           "show_share_buttons": true,
           "media_size": "medium",
-          "enable_image_zoom": true,
+          "enable_image_zoom": false,
           "enable_video_looping": false
         }
       },
@@ -395,26 +398,58 @@
         "type": "plan",
         "settings": {
           "onePerson": "1名様",
-          "price_onePerson": "35,000円(税込)",
-          "image_onePerson": "shopify:\/\/shop_images\/20210226_210307.jpg",
-          "url_onePerson": "shopify:\/\/products\/なすび琵琶湖バス釣りガイド",
+          "price_onePerson": "35,000円",
+          "image_onePerson": "shopify:\/\/shop_images\/20210227_210321.jpg",
+          "url_onePerson": "shopify:\/\/products\/nasubi_biwako_fishing",
           "full_time": "ガイド時間 約8時間",
           "full_time_description": "目安:7時~17時（お昼休憩1時間含む）",
           "secondPerson": "2名様",
-          "price_secondPerson": "42,000円(税込)",
-          "image_secondPerson": "shopify:\/\/shop_images\/20210227_210307_15.jpg",
+          "price_secondPerson": "40,000円",
+          "image_secondPerson": "shopify:\/\/shop_images\/20210226_210321_0.jpg",
           "thirdPerson": "3名様",
-          "price_thirdPerson": "51,000円(税込)",
-          "image_thirdPerson": "shopify:\/\/shop_images\/20210227_210307_17.jpg"
+          "price_thirdPerson": "45,000円",
+          "image_thirdPerson": "shopify:\/\/shop_images\/20210227_210307_9.jpg",
+          "image_secondFamily": "shopify:\/\/shop_images\/20210227_210307_15.jpg",
+          "price_secondFamily": "35,000円",
+          "secondPerson-family": "2名様",
+          "image_thirdFamily": "shopify:\/\/shop_images\/20210227_210307_13.jpg",
+          "price_hirdFamily": "40,000円",
+          "url_Family": "shopify:\/\/products\/nasubi_biwako_fishing_family",
+          "thirdPerson-family": "3名様"
+        }
+      },
+      "16163296228321b22d": {
+        "type": "featured-product",
+        "settings": {
+          "featured_product": "nasubi_biwako_fishing_family",
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": false,
+          "enable_video_looping": false
+        }
+      },
+      "16163305634cf5ffb3": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/DSC_3943.jpg",
+          "layout": "left",
+          "title": "なすびガイド使用艇（なすびボート）",
+          "text": "<p>なすびとお客様を運んでくれる相棒です！お客様を安心安全で1日釣りを楽しんでいただけますように21フィートのフルサイズバスボートですのでご安心ください！<\/p><p>初めてボートに乗る人は、移動だけでテンションがぶち上がる人が多いので見てて楽しいし嬉しいです。笑<br\/>大切に整備してるので安心してご予約ください。<\/p><p>ボート　SKEETER FX 21ft<\/p><p>エンジン　ヤマハSHO275馬力<\/p><p>エレキ　ウルトレックス36V<\/p>",
+          "button_label": ""
         }
       }
     },
     "content_for_index": [
       "hero-1",
       "feature-row",
-      "16139568797f2677a4",
       "feature-columns",
+      "16139568797f2677a4",
       "161538094779bec2ff",
+      "16163296228321b22d",
+      "16163305634cf5ffb3",
       "image-bar",
       "1613961683a3eaecb0",
       "16139577664e7d312f"

@@ -1503,5 +1503,15 @@
         "default": true
       }
     ]
+  },
+  {
+    "name": "プロフィール画像",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "about_img",
+        "label": "プロフィール画像"
+      }
+    ]
   }
 ]

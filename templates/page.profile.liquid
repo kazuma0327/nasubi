@@ -1,0 +1,19 @@
+<section class="wrapper">
+    <div class="container">
+        <div class="content">
+            <div class="content-item">
+                <img src="{{settings.about_img | img_url: '1920x'}}" class="image">
+            </div>    
+            <div class="content-item">
+                <div class="text">
+                    <h2 class="heading">なすびプロフィール</h2>
+                    <p>
+                        {{page.content}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% section 'profile' %}

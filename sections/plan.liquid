@@ -2,15 +2,13 @@
   <div class="grid">
     <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
       <div class="section-header text-center">
-        <h1>{{ page.title }}</h1>
       </div>
       <!-- ここから -->
       <div class="planTable">
-
         <div class="background">
           <div class="container">
+            <h1>通常料金</h1>
             <div class="panel pricing-table">
-              
               <div class="pricing-plan">
                 <img src="{{section.settings.image_onePerson | img_url: '1920x'}}" alt="" class="pricing-img">
                 <h2 class="pricing-header">{{section.settings.onePerson}}</h2>
@@ -18,7 +16,7 @@
                   <li class="pricing-features-item">1日プラン</li>
                   <li class="pricing-features-item">{{section.settings.full_time}}</br>{{section.settings.full_time_description}}</li>
                 </ul>
-                <span class="pricing-price">{{section.settings.price_onePerson}}</span>
+                <span class="pricing-price">{{section.settings.price_onePerson}}<br>税込</span>
                 <a href="{{section.settings.url_onePerson}}" class="pricing-button is-featured">予約する</a>
               </div>
               <div class="pricing-plan">
@@ -28,7 +26,7 @@
                   <li class="pricing-features-item">1日プラン</li>
                   <li class="pricing-features-item">{{section.settings.full_time}}</br>{{section.settings.full_time_description}}</li>
                 </ul>
-                <span class="pricing-price">{{section.settings.price_secondPerson}}</span>
+                <span class="pricing-price">{{section.settings.price_secondPerson}}<br>税込</span>
                 <a href="{{section.settings.url_onePerson}}" class="pricing-button is-featured">予約する</a>
               </div>
               <div class="pricing-plan">
@@ -38,14 +36,45 @@
                   <li class="pricing-features-item">1日プラン</li>
                   <li class="pricing-features-item">{{section.settings.full_time}}</br>{{section.settings.full_time_description}}</li>
                 </ul>
-                <span class="pricing-price">{{section.settings.price_thirdPerson}}</span>
+                <span class="pricing-price">{{section.settings.price_thirdPerson}}<br>税込</span>
                 <a href="{{section.settings.url_onePerson}}" class="pricing-button is-featured">予約する</a>
               </div>
-                          
             </div>
           </div>
         </div>
-
+      </div>
+      <div class="planTable">
+        <div class="background">
+          <div class="container">
+            <h1>女性、お子様が含まれる場合</h1>
+            <p>＊お子様の年齢は高校生以下とさせていただきます。<br>
+            高校生以上の場合通常料金とさせていただきます。</ｐ>
+            <div class="panel pricing-table">
+              <div class="pricing-plan">
+                <img src="{{section.settings.image_secondFamily | img_url: '1920x'}}" alt="" class="pricing-img">
+                <h2 class="pricing-header">{{section.settings.secondPerson-family}}</h2>
+                <ul class="pricing-features">
+                  <li class="pricing-features-item">1日プラン</li>
+                  <li class="pricing-features-item">
+                    {{section.settings.full_time}}</br>{{section.settings.full_time_description}}</li>
+                </ul>
+                <span class="pricing-price">{{section.settings.price_secondFamily}}<br>税込</span>
+                <a href="{{section.settings.url_Family}}" class="pricing-button is-featured">予約する</a>
+              </div>
+              <div class="pricing-plan">
+                <img src="{{section.settings.image_thirdFamily | img_url: '1920x'}}" alt="" class="pricing-img">
+                <h2 class="pricing-header">{{section.settings.thirdPerson-family}}</h2>
+                <ul class="pricing-features">
+                  <li class="pricing-features-item">1日プラン</li>
+                  <li class="pricing-features-item">
+                    {{section.settings.full_time}}</br>{{section.settings.full_time_description}}</li>
+                </ul>
+                <span class="pricing-price">{{section.settings.price_hirdFamily}}<br>税込</span>
+                <a href="{{section.settings.url_Family}}" class="pricing-button is-featured">予約する</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- ここまで -->
 
@@ -65,18 +94,18 @@
           "type": "text",
           "id": "onePerson",
           "default": "1名様",
-          "label": "人数"
+          "label": "1名様"
       },
       {
           "type": "text",
           "id": "price_onePerson",
-          "default": "35,000円(税込)",
-          "label": "料金"
+          "default": "35,000円",
+          "label": "1名様料金"
       },
       {
           "type": "image_picker",
           "id": "image_onePerson",
-          "label": "写真"
+          "label": "1名様写真"
       },
       {
           "type": "url",
@@ -99,35 +128,78 @@
           "type": "text",
           "id": "secondPerson",
           "default": "2名様",
-          "label": "人数"
+          "label": "2名様"
       },
       {
           "type": "text",
           "id": "price_secondPerson",
-          "default": "42,000円(税込)",
-          "label": "料金"
+          "default": "40,000円",
+          "label": "2名様料金"
       },
       {
           "type": "image_picker",
           "id": "image_secondPerson",
-          "label": "写真"
+          "label": "2名様写真"
       },
       {
           "type": "text",
           "id": "thirdPerson",
           "default": "3名様",
-          "label": "人数"
+          "label": "3名様"
       },
       {
           "type": "text",
           "id": "price_thirdPerson",
-          "default": "51,000円(税込)",
-          "label": "料金"
+          "default": "45,000円",
+          "label": "3名様料金"
       },
       {
           "type": "image_picker",
           "id": "image_thirdPerson",
-          "label": "写真"
+          "label": "3名様写真"
+      },
+
+
+      {
+        "type": "image_picker",
+        "id": "image_secondFamily",
+        "label": "家族写真"
+      },
+      {
+        "type": "text",
+        "id": "price_secondFamily",
+        "default": "35,000円",
+        "label": "女性、もしくは高校生以下のお子様2名様料金"
+      },
+      {
+        "type": "text",
+        "id": "secondPerson-family",
+        "default": "2名様",
+        "label": "女性、もしくは高校生以下のお子様3名"
+      },
+
+
+      {
+        "type": "image_picker",
+        "id": "image_thirdFamily",
+        "label": "女性写真"
+      },
+      {
+        "type": "text",
+        "id": "price_hirdFamily",
+        "default": "40,000円",
+        "label": "女性、もしくは高校生以下のお子様3名様料金"
+      },
+      {
+        "type": "url",
+        "id": "url_Family",
+        "label": "ボタン"
+      },
+      {
+        "type": "text",
+        "id": "thirdPerson-family",
+        "default": "3名様",
+        "label": "女性、もしくは高校生以下のお子様3名"
       }
   ]
 }
