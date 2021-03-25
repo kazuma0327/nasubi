@@ -21,8 +21,3 @@ development:
   theme_id: "120705220799"
   store: yachi-store.myshopify.com
 
-# なすびあぷり追加
-development:
-  password: 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
-  theme_id: "120087969983"
-  store: yachi-store.myshopify.com
