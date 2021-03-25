@@ -1,0 +1,37 @@
+<section class="wrapper">
+  <div class="container">
+      <div class="content">
+          <div class="content-item">
+              <img src="{{settings.reservation_img | img_url: '1920x'}}" class="image">
+          </div>
+          <div class="content-item">
+              <div class="text">
+                  <h2 class="heading">最新の予約状況</h2>
+                  <p>
+                      {{page.content}}
+                  </p>
+                  <a href="{{section.settings.url_reservation}}" class="reservation-button is-reservation">予約する</a>
+                  <a href="{{section.settings.url_plan}}" class="reservation-button is-reservation">料金を確認する</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "編集",
+  "settings": [
+      {
+          "type": "url",
+          "id": "url_reservation",
+          "label": "予約ボタン"
+      },
+      {
+        "type": "url",
+        "id": "url_plan",
+        "label": "料金確認ボタン"
+      }
+  ]
+}
+{% endschema %}

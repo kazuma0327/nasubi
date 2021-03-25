@@ -21,13 +21,15 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/nasubi_nakaya_shoichi\/?hl=ja",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCrIDWxEnxmX7hoQTxIV-48A",
     "favicon": "shopify:\/\/shop_images\/S__117882900-removebg-preview.png",
+    "about_img": "shopify:\/\/shop_images\/DSC_3854.jpg",
+    "reservation_img": "shopify:\/\/shop_images\/20210227_210307_0.jpg",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
           "align_logo": "left",
           "logo": "shopify:\/\/shop_images\/S__117882900-removebg-preview.png",
-          "logo_max_width": 100,
+          "logo_max_width": 85,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": true,
@@ -42,7 +44,7 @@
           "image": "shopify:\/\/shop_images\/20210227_210307_6304dbad-7b6b-40b5-a8c7-087a4a088222.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
-          "hero_size": "large",
+          "hero_size": "x-large",
           "text_size": "large",
           "title": "琵琶湖バス釣りガイド",
           "text": "",
@@ -56,7 +58,7 @@
           "image": "shopify:\/\/shop_images\/DSC_3874.jpg",
           "layout": "left",
           "title": "なすびガイドのプロフィール&モットー",
-          "text": "<p>初めまして！琵琶湖でバス釣りガイドをやらせてもらってます。なすびです！<br\/>詳しくはこちら→プロフィール<br\/>なすびガイドはお客様に笑顔になってもらえるように全力でガイドをやらせてもらってます！<br\/>楽しく、ワイワイ、そして真剣に！<\/p><p>初心者の方から上級者の方まで大歓迎！<\/p><p>新しく趣味を見つけたい方、一緒に釣りをしたい方、休みの日に何していいかわからない方にも是非なすびガイドサービスを体験してほしいです！<\/p><p><\/p>",
+          "text": "<p>初めまして！琵琶湖でバス釣りガイドをやらせてもらってます。なすびです！<br\/>詳しくはこちら→<a href=\"\/pages\/profile\" title=\"プロフィール\"><strong>プロフィール<\/strong><\/a><br\/>なすびガイドはお客様に笑顔になってもらえるように全力でガイドをやらせてもらってます！<br\/>楽しく、ワイワイ、そして真剣に！<\/p><p>初心者の方から上級者の方まで大歓迎！<\/p><p>新しく趣味を見つけたい方、一緒に釣りをしたい方、休みの日に何していいかわからない方にも是非なすびガイドサービスを体験してほしいです！<\/p><p><\/p>",
           "button_label": ""
         }
       },
@@ -391,7 +393,9 @@
         "type": "qa",
         "settings": {
           "question": "",
-          "answer": ""
+          "answer": "",
+          "url_reservation": "shopify:\/\/collections\/ガイド予約",
+          "url_plan": "shopify:\/\/pages\/料金-プラン"
         }
       },
       "plan": {
@@ -439,6 +443,21 @@
           "title": "なすびガイド使用艇（なすびボート）",
           "text": "<p>なすびとお客様を運んでくれる相棒です！お客様を安心安全で1日釣りを楽しんでいただけますように21フィートのフルサイズバスボートですのでご安心ください！<\/p><p>初めてボートに乗る人は、移動だけでテンションがぶち上がる人が多いので見てて楽しいし嬉しいです。笑<br\/>大切に整備してるので安心してご予約ください。<\/p><p>ボート　SKEETER FX 21ft<\/p><p>エンジン　ヤマハSHO275馬力<\/p><p>エレキ　ウルトレックス36V<\/p>",
           "button_label": ""
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "reservation": {
+        "type": "reservation",
+        "settings": {
+          "url_reservation": "shopify:\/\/collections\/ガイド予約",
+          "url_plan": "shopify:\/\/pages\/料金-プラン"
         }
       }
     },

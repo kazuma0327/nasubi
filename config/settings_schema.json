@@ -1513,5 +1513,15 @@
         "label": "プロフィール画像"
       }
     ]
+  },
+  {
+    "name": "予約画像",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "reservation_img",
+        "label": "予約画像"
+      }
+    ]
   }
 ]
