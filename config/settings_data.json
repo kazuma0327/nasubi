@@ -325,7 +325,7 @@
         "type": "featured-blog",
         "settings": {
           "title": "",
-          "blog": "最新情報",
+          "blog": "blog",
           "post_limit": 3,
           "blog_show_author": false,
           "blog_show_date": true,
